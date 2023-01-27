@@ -1,0 +1,128 @@
+<style>
+#boule{
+position: absolute;
+left:25%;
+width: 50px;
+height: 50px;
+background:linear-gradient(35deg,
+#ccffff,
+#ffcccc
+);
+border-radius:50%;
+animation-name: boum;
+animation-duration: 15s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes boum{
+  0%{
+      top:13%;
+  }
+  10%{
+      left:32%;
+      top:10%;
+  }
+  20%{
+      top:23%;
+  }
+  30%{
+      left:45%;
+      top:15%;
+  }
+  40%{
+      top:33%;
+      left:49%;
+  }
+  50%{
+      top:30%;
+      left:57%;
+  }
+  60%{
+     top:43%;
+     left:60%;
+  }
+  70%{
+      top:35%;
+      left:62%;
+  }
+  80%{
+      top:53%;
+      left:68%;
+  }
+  90%{
+      left:71%;
+      top:34%;
+  }
+  95%{
+      top:64%;
+      left:75%;
+  }
+  100%{
+    top:30%;
+    left:79%;
+  }
+
+
+}
+.bar{
+position: absolute;
+left:20%;
+top:5%;
+width: 200px;
+height: 15px;
+background-color:antiquewhite;
+}
+#b1{
+top:20%;
+
+}
+#b2{
+    top:30%;
+    left:30%;
+}
+#b3{
+  top:40%;
+  left:40%;
+}
+#b4{
+    top:50%;
+    left:50%;
+}
+#b5{
+    top:60%;
+    left:60%;
+}
+#b6{
+    top:70%;
+    left:70%;
+}
+#b7{
+    position: absolute;
+    right:15.85%;
+    width: 17px;
+    top:4.5%;
+    height:482px;
+    background-color:antiquewhite;
+
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Format</title>
+</head>
+<body>
+    <div id="boule" class="dj"></div>
+    <div id="b1" class="bar dj"></div>
+    <div id="b2" class="bar dj"></div>
+    <div id="b3" class="bar dj"></div>
+    <div id="b4" class="bar dj"></div>
+    <div id="b5" class="bar dj"></div>
+    <div id="b6" class="bar dj"></div>
+    <div id="b7" class="dj"></div>
+</body>
+</html>
